@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins'sans-serif;
+    box-sizing: border-box;
+}
+
+.hader{
+    min-width: 100%;
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)),url(img/burger-vegetables-fast-food-gs3cja4ka4b9a76d.webp);
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+.hader h1{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: .3rem;
+}
+.logo{
+    width:80%;
+    position: relative;
+    padding-top: 100px;
+    left:10%;
+
+}
+.logo  img{
+   min-width:1000px;
+   height: 300px;
+}
+.boxx{
+    position: absolute;
+    width:40%;
+    left:22%;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+}
+.boxx input{
+    margin: 10px;
+    border: none;
+    background-color: #ccc;
+    color:#777;
+    font-size:13px;
+    border-radius:8px;
+    padding: 5px 0px;
+    padding-inline-start: 4px;
+}
+
+
+.continer{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top:15px;
+    
+}
+.btn{
+    padding: 5px 12px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #ffff;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    right:5%;
+    position: relative;
+}
+.popp{
+    width: 400px;
+    background-color:#d6d6ff;
+    padding: 0px 30px 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) scale(0.1);
+    left: 50%;
+    top:0%;
+    position: absolute;
+    visibility: hidden;
+    transition: tansform 0.3s top 0.4s;
+}
+.open-popp{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    top:190%;
+    left:44%;
+
+}
+.popp img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+}
+.popp h2{
+    font-size:35px;
+    font-weight: 500;
+}
+.popp button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0px;
+    background-color: #22ff45;
+    color: #ffff;
+    font-size:18px;
+    margin-top: 50px;
+    border-radius: 4px  ;
+}
+
+.Fotter{
+    min-width: 50%;
+    position:absolute;
+    left:38%;
+    margin-top:105%;
+    top:50px;
+    
+}
+.Fotter h1{
+    font-size: 25px;
+    font-family: "poppins",sans-serif;
+    letter-spacing: .2rem;
+}
+.icons .fa{
+    margin: 8px 5px;
+    color: orange;
+    transition: 0.3s;
+}
+.icons .fa:hover{
+    transform: translate(5px);
+}
+
+
+
